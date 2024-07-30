@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*
+selecion { propiedad: valor;
+}
+*/
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #c7b8c6 url(/public/imagenes/purple\ laptop\ wallpaper\ with\ white\ butterflies\ \(1\).jpeg)
+}
+title{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,h7,h8 {
+    color: #1a1919;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+header .navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+p{
+    font-family: "Playfair Display", serif;
+}
+
+.jumbotron {
+    background: #c7b8c6 url(/public/imagenes/purple\ laptop\ wallpaper\ with\ white\ butterflies\ \(1\).jpeg);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    color: #050505;
+}
+
+footer p {
+    margin: 0;
+}
+
+figure {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+figure figcaption {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color:   #0e0d0d;
+}
+
+.modal-header {
+    background-color: #c7b8c6;
+    border-bottom: none;
+}
+
+.modal-body {
+    background-color:#c7b8c6;
+}
+img
+    {
+    border-radius: 50px;
+    margin:0 auto; 
+    display:block;
+    }
